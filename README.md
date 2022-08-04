@@ -55,3 +55,4 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
   - O objetivo da Root Account é gerenciar outras contas e dados de billing.
   - Boas práticas:
     - NÃO utilizar a Root Account para realizar deploys de serviços na AWS.
+    - Utilize o AWS Organizations para ajudar a gerenciar e controlar seu ambiente de maneira centralizada à medida que os negócios e seus recursos da AWS expandem.
