@@ -6,7 +6,7 @@
 
 A computação em nuvem é a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem como a Amazon Web Services (AWS).
 
-# Characteristics and Advantages, part 1
+# Characteristics and Advantages
 
 - Agility
 - Maintenance
@@ -15,3 +15,11 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
 - Performance
 - Scalability
 - Cost and Elasticity
+
+# NIST (The National Institute of Standards and Technology)
+
+- On demand self-service
+- Broad network access
+- Resource pooling
+- Rapid elasticity
+- Measured service
