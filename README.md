@@ -59,3 +59,7 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
 
 - AWS Accounts
   - Na camada de Accounts é o lugar ideal para criar os seus serviços(EC2, Lambda, etc..)
+
+- Creating Account
+  - My Security Credentials
+    - A primeira ação a ser feita após a criação da conta, é a realizar a configuração do MFA (Multi-factor Authentication)
