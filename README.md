@@ -55,7 +55,7 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
   - O objetivo da Root Account é gerenciar outras contas e dados de billing.
   - Boas práticas:
     - NÃO utilizar a Root Account para realizar deploys de serviços na AWS.
-    - Utilize o AWS Organizations para ajudar a gerenciar e controlar seu ambiente de maneira centralizada à medida que os negócios e seus recursos da AWS expandem.
+    - Você pode usar Organizational Unit (OU) para agrupar contas e administrá-las como uma unidade única. Isso simplifica bastante o gerenciamento de suas contas.
 
 - AWS Accounts
   - Na camada de Accounts é o lugar ideal para criar os seus serviços(EC2, Lambda, etc..)
