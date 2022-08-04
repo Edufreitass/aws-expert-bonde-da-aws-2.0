@@ -15,11 +15,20 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
 - Performance
 - Scalability
 - Cost and Elasticity
+- Extra:
+  - NIST (The National Institute of Standards and Technology)
+    - On demand self-service
+    - Broad network access
+    - Resource pooling
+    - Rapid elasticity
+    - Measured service
 
-# NIST (The National Institute of Standards and Technology)
+# Service models
 
-- On demand self-service
-- Broad network access
-- Resource pooling
-- Rapid elasticity
-- Measured service
+- **IaaS (Infrastructure as a Service)**
+- **PasS (Platform as a Service)**
+- **FaaS (Function as a Service)**
+  - SaaS (Software as a Service)
+  - CaaS (Container as a Service)
+  - BaaS (Backend as a Service)
+  - Haas (Hardware as a Service)
