@@ -32,3 +32,11 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
   - CaaS (Container as a Service)
   - BaaS (Backend as a Service)
   - Haas (Hardware as a Service)
+
+# Deployment models
+
+- Private Cloud
+- Public Cloud
+- Hybrid Cloud
+- *Multicloud
+- Community
