@@ -43,8 +43,15 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
 - *Multicloud
 - Community
 
+---
+
 # Day 02
 
 # Foundation - Intro
 
 ![image](https://user-images.githubusercontent.com/56324728/182744471-13214fb4-54ea-4334-91ac-7127623e870a.png)
+
+- Root Accounts
+  - O objetivo da Root Account é gerenciar outras contas e dados de billing.
+  - Boas práticas:
+    - NÃO utilizar a Root Account para realizar deploys de serviços na AWS.
