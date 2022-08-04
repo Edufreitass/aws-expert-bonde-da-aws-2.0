@@ -5,3 +5,13 @@
 # What is Cloud?
 
 A computação em nuvem é a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem como a Amazon Web Services (AWS).
+
+# Characteristics and Advantages, part 1
+
+- Agility
+- Maintenance
+- Reliability
+- Security
+- Performance
+- Scalability
+- Cost and Elasticity
