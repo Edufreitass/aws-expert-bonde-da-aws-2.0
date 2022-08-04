@@ -42,3 +42,9 @@ A computação em nuvem é a entrega de recursos de TI sob demanda por meio da I
 - Hybrid Cloud
 - *Multicloud
 - Community
+
+# Day 02
+
+# Foundation - Intro
+
+![image](https://user-images.githubusercontent.com/56324728/182744471-13214fb4-54ea-4334-91ac-7127623e870a.png)
