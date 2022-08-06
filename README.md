@@ -134,3 +134,27 @@ Boa sorte
 
 Mateus
 ```
+
+---
+
+# Day 03
+
+# AWS Well-Architected
+
+O AWS Well-Architected Framework descreve os principais conceitos, princípios de projeto e práticas recomendadas para projetar e executar workloads na nuvem. Ao responder algumas perguntas fundamentais, você aprende o quanto sua arquitetura se alinha com as práticas recomendadas da nuvem e recebe orientações para fazer melhorias.
+
+- Pilars
+- Design Principles
+- Questions
+
+- Why apply the AWS Well-Architected Framework?
+  - Speed
+  - Mitigate Risks
+  - Make informed decisions
+  - Use AWS best practices
+
+- Cycles:
+  - Learn
+  - Measure
+  - Improve
+
