@@ -166,3 +166,11 @@ Execute na sua conta pessoal da AWS o Well-Architected, criando um workload inic
 Vá durante o treinamento, criando milestones, e vendo a evolução da sua conta.
 No final do treinamento, vamos rever cada pilar juntos.
 ```
+
+---
+
+# Day 04
+
+# Identity and Access Management (IAM)
+
+Security, Identity & Compliance
