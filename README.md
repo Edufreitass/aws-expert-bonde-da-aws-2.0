@@ -174,3 +174,27 @@ No final do treinamento, vamos rever cada pilar juntos.
 # Identity and Access Management (IAM)
 
 Security, Identity & Compliance
+
+- O que é o AWS Identity and Access Management (IAM)?
+  - O IAM fornece controle de acesso minucioso em toda a AWS. Com o IAM, é possível controlar o acesso a serviços e recursos sob condições específicas. Use as políticas do IAM, para gerenciar permissões para seu quadro de funcionários e sistemas para garantir permissões com privilégio mínimo. O IAM é oferecido sem cobranças adicionais. 
+
+- Como o IAM funciona e o que posso fazer com ele?
+  - O IAM fornece autenticação e autorização para produtos da AWS. Um serviço avalia se a solicitação da AWS será permitida ou negada. O acesso é negado por padrão e é permitido somente quando uma política concede acesso explícito. É possível anexar políticas a funções e a recursos para controlar o acesso na AWS.
+
+- O que são permissões com privilégio mínimo?
+  - Ao definir permissões com políticas do IAM, conceda apenas as permissões necessárias para executar uma tarefa. Essa prática se chama  conceder privilégio mínimo. Você aplica permissões de privilégio mínimo no IAM definindo as ações que podem ser executadas em recursos específicos mediante condições específicas.
+
+- Como começar a usar o IAM?
+  - Comece a usar o IAM para gerenciar permissões para serviços e recursos da AWS criando uma função do IAM e concedendo permissões a ela. Para usuários do quadro de funcionários, crie uma função que possa ser assumida pelo provedor de identidade. Para sistemas, crie uma função que possa ser assumida pelo serviço que você está usando, como o Amazon EC2 ou o AWS Lambda. Após criar uma função, anexe uma política à função para conceder permissões que atendam às suas necessidades. No início, talvez você não conheça as permissões específicas necessárias, então pode começar com permissões mais abrangentes. As políticas gerenciadas pela AWS fornecem permissões para ajudar você a dar os primeiros passos e estão disponíveis em todas as contas da AWS. Depois, reduza as permissões definindo políticas gerenciadas pelo cliente específicas para seus casos de uso. Você pode criar e gerenciar políticas e funções pelo console do IAM, pelas APIs da AWS ou pela AWS CLI. 
+
+- O que são as funções (roles) do IAM e como elas funcionam?
+  - As funções do AWS Identity and Access Management (IAM) fornecem um modo de acessar a AWS com base em credenciais de segurança temporárias. Cada função tem um conjunto de permissões para fazer solicitações de produtos da AWS, e uma função não está associada a um usuário ou grupo específico. Em vez disso, entidades confiáveis, como provedores de identidade ou produtos da AWS, assumem funções. 
+
+- Por que usar as funções (roles) do IAM?
+  - Você deve usar funções do IAM para conceder acesso a suas contas da AWS com base em credenciais de curto prazo, uma prática recomendada de segurança. As identidades autorizadas, que podem ser produtos da AWS ou usuários de seu provedor de identidade, podem assumir funções para fazer solicitações à AWS. Para conceder permissões a uma função, anexe uma política do IAM a ela.
+
+- O que são usuários do IAM? Devo continuar usando-os?
+  - Os usuários do IAM são identidades com credenciais de longo prazo. Talvez você esteja usando usuários do IAM para usuários de quadro de funcionários. Nesse caso, a AWS recomenda usar um provedor de identidade e federá-lo na AWS assumindo funções. Também é possível usar funções para conceder acesso entre contas a serviços e recursos, como funções do AWS Lambda. Em alguns cenários, você pode exigir que usuários do IAM com chaves de acesso com credenciais de longo prazo tenham acesso a sua conta da AWS. Para esses cenários, a AWS recomenda usar as últimas informações de acesso ao IAM usadas para alternar as credenciais frequentemente e remover as credenciais que não estão em uso.
+
+- O que são políticas (policies) do IAM?
+  - As políticas do IAM definem permissões para as entidades às quais são anexadas. Por exemplo, para conceder acesso a uma função do IAM, anexe uma política à função. As permissões definidas na política determinam se as solicitações serão permitidas ou negadas. Também é possível anexar políticas a alguns recursos, como buckets do Simple Storage Service (Amazon S3), para conceder acesso direto entre contas. E você pode anexar políticas a uma organização ou unidade organizacional da AWS para restringir o acesso a várias contas. A AWS avalia essas políticas quando uma função do IAM faz uma solicitação. 
