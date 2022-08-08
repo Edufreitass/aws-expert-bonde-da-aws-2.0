@@ -200,5 +200,14 @@ Security, Identity & Compliance
   - As políticas do IAM definem permissões para as entidades às quais são anexadas. Por exemplo, para conceder acesso a uma função do IAM, anexe uma política à função. As permissões definidas na política determinam se as solicitações serão permitidas ou negadas. Também é possível anexar políticas a alguns recursos, como buckets do Simple Storage Service (Amazon S3), para conceder acesso direto entre contas. E você pode anexar políticas a uma organização ou unidade organizacional da AWS para restringir o acesso a várias contas. A AWS avalia essas políticas quando uma função do IAM faz uma solicitação. 
 
 ```
-Crie um user com AdministratorAcess, adicione ele em grupo de Administrators. Ative MFA Virtual ou Físico para este usuário. Não utilize mais o usuário Root(email da conta) desta Account. Use uma senha de 64 caracteres no mínimo, e utilize um gerenciador de senhas. Ex.: 1Password, LastPass. Se você já tem uma conta que usa durante muito tempo, altere a senha da sua e ative MFA na Root Account. Instale o aws-cli, o utilitário linha de comando da AWS: https://aws.amazon.com/cli/ Crie um usuario do tipo Programmatic Access no IAM e attach a policy ReadOnlyAccess Apos instalar o aws-cli, configure ele usando: $ aws configure Doc em https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html#cli-quick-configuration
+Crie um user com AdministratorAcess, adicione ele em grupo de Administrators. 
+Ative MFA Virtual ou Físico para este usuário. 
+Não utilize mais o usuário Root(email da conta) desta Account. 
+Use uma senha de 64 caracteres no mínimo, e utilize um gerenciador de senhas. 
+Ex.: 1Password, LastPass. 
+Se você já tem uma conta que usa durante muito tempo, altere a senha da sua e ative MFA na Root Account. 
+Instale o aws-cli, o utilitário linha de comando da AWS: https://aws.amazon.com/cli/ 
+Crie um usuario do tipo Programmatic Access no IAM e attach a policy ReadOnlyAccess 
+Apos instalar o aws-cli, configure ele usando: 
+$ aws configure Doc em https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html#cli-quick-configuration
 ```
