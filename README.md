@@ -211,3 +211,13 @@ Crie um usuario do tipo Programmatic Access no IAM e attach a policy ReadOnlyAcc
 Apos instalar o aws-cli, configure ele usando: 
 $ aws configure Doc em https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html#cli-quick-configuration
 ```
+
+---
+
+# Day 05
+
+# Cross Account Roles
+
+```
+O exercício de hoje é para encerrar essa nossa primeira etapa de Foundation na AWS. Você deve criar uma conta na AWS para ser responsável pela gestão de indentidade da sua Organization. Basicamente um conta com IAM configurado. Ou seja, os usuarios, grupos, policies e roles estarão nessa conta. As outras duas contas que criamos desde o início do curso, você vai utilizar para receber autenticações vindo dessa conta que vamos chamar de "Identity Account". O cenario no final, vai ficar assim: 1 Master account 1 Identity account - usuarios e grupos criados aqui 2 Accounts com Cross Account Roles, ou seja, Roles do tipo Account, que vão autorizar usuarios vindo da conta "Identity", acessa-las através de Assume Role(Swith Role) Em uma conta, a Role da permissão de PowerUserAccess e em outra conta, ReadOnlyAccess. Execute acessos a essas contas com um usuario do IAM da Identity Account, fazendo Swith Role.
+```
